@@ -1,0 +1,288 @@
+@media (max-width : 480px) {
+    html {
+        overflow-x: hidden;
+        body {
+            overflow-x: hidden;
+            .wrapper {
+                background: url(images/mobilebg11.jpg);
+                background-size: 150%;
+                overflow-x: hidden;
+                header {
+                    height: 12vh;
+                    width: 100vw;
+                    background: transparent;
+                    nav {
+                        background: transparent;
+                        .logo {
+                            height: 70px;
+                            left: 13.5%;
+                            h1 {
+                                font-size: 3.5rem;
+                                &:hover {
+                                    transform: rotate(360deg) scale(1);
+                                }
+                            }
+                        }
+                        .menu_lines {
+                            height: 30px;
+                            width: 40px;
+                            right: 0%;
+                            .first_line {
+                                height: 3px;
+                                width: 100%;
+                            }
+                            .second_line {
+                                height: 3px;
+                                width: 70%;
+                            }
+                            .third_line {
+                                height: 3px;
+                                width: 40%;
+                            }
+                        }
+                    }
+                }
+                .hero {
+                    height: 88vh;
+                    width: 100vw;
+                    overflow: hidden;
+                    .hero_inner {
+                        h1 {
+                            width: 100%;
+                            font-size: 8rem;
+                            letter-spacing: 7px;
+                            -webkit-text-stroke: 0.3px;
+                            span {
+                                display: block;
+                                text-align: center;
+                                position: absolute;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            .first_initial {
+                                top: 45%;
+                                left: 35%;
+                                transform: translate(-50%,-50%);
+                            }
+                            .second_initial {
+                                top: 45%;
+                                left: 51%;
+                                transform: translate(-50%,-50%);
+                            }
+                            .third_initial {
+                                top: 45%;
+                                left: 63%;
+                                transform: translate(-50%,-50%);
+                            }
+                            .fourth_initial {
+                                top: 45%;
+                                left: 72%;
+                                transform: translate(-50%,-50%);
+                            }
+                        }
+                        .menu_square {
+                            top: 25%;
+                            .menu_square_inner {
+                                .inner_menu_square {
+                                    
+                                    &:hover {
+                                        transform: scale(1.1);
+                                        background-color: var(--accentColor2);
+                                        z-index: 5;
+                                    }
+                                }
+                            }
+                        }
+                        .social {
+                            width: 400px;
+                            left: -50%;
+                            bottom: 26%;
+                            a {
+                                font-size: 0.7rem;
+                            }
+                        }
+                        h2 {
+                            left: 45%;
+                        }
+                        p {
+                            left: 58%;
+                        }
+                    }
+                }
+            }
+            .home {
+                .home__inner {
+                    .about {
+                        height: 50vh;
+                        width: 75vw;
+                        top: 40%;
+                        h1 {
+                            font-size: 1.5rem;
+                            text-align: center;
+                            width: 80%;
+                        }
+                    }
+                    .move_ahead_btn {
+                        height: 40px;
+                        width: 40px;
+                        font-size: 2rem;
+                    }
+                    .mab1 {
+                        top: 70%;
+                        left: 10%;
+                    }
+                    .mab2 {
+                        top: 70%;
+                        left: 35%;
+                    }
+                    .mab3 {
+                        top: 70%;
+                        left: 57%;
+                    }
+                    .mab4 {
+                        top: 70%;
+                        left: 80%;
+                    }
+                    h2 {
+                        left: 45%;
+                    }
+                    p {
+                        left: 58%;
+                    }
+                }
+            }
+            .expertise {
+                .expertise__inner {
+                    .expertise_tab {
+                        height: 70vh;
+                        width: 80vw;
+                        flex-direction: column;
+                        .tab {
+                            height: 20%;
+                            width: 100%;
+                        }
+                    }
+                    h2 {
+                        left: 45%;
+                    }
+                    p {
+                        left: 58%;
+                    }
+                }
+            }
+            .skills {
+                .web_dev_skills, 
+                .graphic_design_skills, 
+                .modelling_skills, 
+                .animation_skills  {
+                    height: 50vh;
+                    h1 {
+                        font-size: 2rem;
+                        text-align: left;
+                        left: 32%;
+                        width: 200px;
+                    }
+                    h2 {
+                        font-size: 1rem;
+                        padding: 1rem;
+                        width: 100px;
+                        left: 80%;
+                    }
+                    .topics {
+                        height: 47%;
+                        justify-content: space-between;
+                        position: absolute;
+                        top: 55%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                        z-index: 5;
+                        h3 {
+                            font-size: 0.7rem;
+                        }
+                    }
+                    .progress_box {
+                        height: 70%;
+                        position: absolute;
+                        top: 55%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                    }
+                }
+                .graphic_design_skills {
+                    .topics {
+                        height: 52%;
+                        h3 {
+                            width: 400px;
+                            text-align: center;
+                        }
+                    }
+                    .progress_box {
+                        height: 75%;
+                        justify-content: space-around;
+                    }
+                }
+                .modelling_skills {
+                    .topics {
+                        height: 34%;
+                    }
+                    .progress_box {
+                        height: 64%;
+                        justify-content: space-around;
+                    }
+                }
+                .animation_skills {
+                    height: 30vh;
+                    .topics {
+                        height: 10%;
+                        top: 57.5%;
+                    }
+                }
+            }
+            .blog_section {
+                .blog_section_heading {
+                    width: 50%;
+                    h1 {
+                        font-size: 5rem;
+                    }
+                }
+                .blog_section_details {
+                    width: 50%;
+                    p {
+                        font-size: 1rem;
+                        text-align: left;
+                        font-weight: 900;
+                        width: 80%;
+                    }
+                }
+            }
+            .footer {
+                background: url(images/mobilebg5.jpg);
+                background-position: bottom;
+                background-size: 100%;
+                height: 40vh;
+                h1 {
+                    top: 15%;
+                    left: 50%;
+                }
+                p {
+                    top: 25%;
+                    left: 50%;
+                }
+                h2 {
+                    top: 45%;
+                    font-size: 2rem;
+                }
+                .sitemap {
+                    top: 55%;
+                }
+                h4 {
+                    top: 85%;
+                    left: 50%;
+                    width: 80%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
