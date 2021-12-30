@@ -6,8 +6,9 @@
     overflow-x: hidden;
   }
   html body .wrapper {
-    background: url(images/mobilebg11.jpg);
-    background-size: 150%;
+    background: url(images/bg.jpg);
+    background-size: 350%;
+    background-repeat: no-repeat;
     overflow-x: hidden;
   }
   html body .wrapper header {
@@ -32,7 +33,7 @@
   html body .wrapper header nav .menu_lines {
     height: 30px;
     width: 40px;
-    right: 0%;
+    right: 5%;
   }
   html body .wrapper header nav .menu_lines .first_line {
     height: 3px;

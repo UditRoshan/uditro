@@ -15,7 +15,7 @@
   --secondFont: 'Rock 3D', cursive;
   --thirdFont: 'Staatliches', cursive;
   --accentColor1: rgb(0, 255, 170);
-  --accentColor2: rgb(0, 110, 255);
+  --accentColor2: goldenrod;
 }
 
 html {
@@ -28,7 +28,7 @@ html {
 html body .wrapper {
   height: 100vh;
   width: 100vw;
-  background: url(images/mobilebg11.jpg);
+  background: url(images/bg.jpg);
   background-position: center;
   background-size: 100%;
   position: relative;
@@ -152,7 +152,7 @@ html body .wrapper .hero .hero_inner h1 {
           transform: translate(-50%, -50%);
   text-transform: lowercase;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px;
+  -webkit-text-stroke: 3px;
   cursor: default;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -164,16 +164,6 @@ html body .wrapper .hero .hero_inner h1::-moz-selection {
 }
 
 html body .wrapper .hero .hero_inner h1::selection {
-  background-color: transparent;
-  color: var(--accentColor2);
-}
-
-html body .wrapper .hero .hero_inner h1 span::-moz-selection {
-  background-color: transparent;
-  color: var(--accentColor2);
-}
-
-html body .wrapper .hero .hero_inner h1 span::selection {
   background-color: transparent;
   color: var(--accentColor2);
 }

@@ -5,7 +5,8 @@
             overflow-x: hidden;
             .wrapper {
                 background: url(images/bg.jpg);
-                background-size: 150%;
+                background-size: 350%;
+                background-repeat: no-repeat;
                 overflow-x: hidden;
                 header {
                     height: 12vh;
@@ -26,7 +27,7 @@
                         .menu_lines {
                             height: 30px;
                             width: 40px;
-                            right: 0%;
+                            right: 5%;
                             .first_line {
                                 height: 3px;
                                 width: 100%;
