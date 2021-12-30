@@ -16,7 +16,7 @@
     --thirdFont: 'Staatliches', cursive;
 
     --accentColor1: rgb(0, 255, 170);
-    --accentColor2: rgb(0, 110, 255);
+    --accentColor2: goldenrod;
 }
 
 html {
@@ -28,7 +28,7 @@ html {
         .wrapper {
             height: 100vh;
             width: 100vw;
-            background: url(images/mobilebg11.jpg);
+            background: url(images/bg.jpg);
             background-position: center;
             background-size: 100%;
             position: relative;
@@ -126,12 +126,6 @@ html {
                         &::selection {
                             background-color: transparent;
                             color: var(--accentColor2);
-                        }
-                        span {
-                            &::selection {
-                                background-color: transparent;
-                                color: var(--accentColor2);
-                            }
                         }
                     }
                     
